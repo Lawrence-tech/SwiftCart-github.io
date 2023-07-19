@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='shortcut icon' href="images/favicon__cart.png" />
+    <link rel='shortcut icon' href="images/favicon__cart.png"/>
 
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/header.css">
@@ -14,20 +13,17 @@
     <link rel="stylesheet" href="style/deals.css">
     <link rel="stylesheet" href="style/delivery.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/teams.css">
     <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/team.css">
-    <!-- <link rel="stylesheet" href="style/review.css"> -->
     <title>SwiftCart - Landing Page</title>
 </head>
-
 <body>
-    <header>
+    <header class="header">
         <a href="index.html" class="header__logo"></a>
 
         <nav id="top__navbar">
             <ul id="top__navbar__links">
-                <li class="top__navbar__link__item"><a href="#hero__section" class="top__navbar__link active">Home</a>
-                </li>
+                <li class="top__navbar__link__item"><a href="#hero__section" class="top__navbar__link active">Home</a></li>
                 <li class="top__navbar__link__item"><a href="#" class="top__navbar__link">Stores</a></li>
                 <li class="top__navbar__link__item"><a href="#" class="top__navbar__link">Contact</a></li>
                 <li class="top__navbar__link__item"><a href="#about__section" class="top__navbar__link">About</a></li>
@@ -37,64 +33,51 @@
                 <li class="top__navbar__cta__item"><a href="login.html" class="top__navbar__cta">Log In</a></li>
                 <li class="top__navbar__cta__item"><a href="signup.html" class="top__navbar__cta">Sign Up</a></li>
             </ul>
-            <div id="top__navbar__hamburger">
-                <div class="hamburger__bar" id="hamburger__bar1"></div>
-                <div class="hamburger__bar" id="hamburger__bar2"></div>
-                <div class="hamburger__bar" id="hamburger__bar3"></div>
-            </div>
         </nav>
+
+        <div id="top__navbar__hamburger">
+            <div class="hamburger__bar" id="hamburger__bar1"></div>
+            <div class="hamburger__bar" id="hamburger__bar2"></div>
+            <div class="hamburger__bar" id="hamburger__bar3"></div>
+        </div>
     </header>
 
-    <section id="hero__section">
+    <section id="hero__section" class="section">
         <h1>
             Best Platform of High Quality Groceries Delivery in Africa.
         </h1>
         <p>
-            Elevate your grocery shopping to new heights with our exceptional platform. Immerse yourself in a curated
-            selection of top-quality products growth in Africa and enjoy convenient delivery options. Join us now and
-            experience the future of grocery shopping!
+            Elevate your grocery shopping to new heights with our exceptional platform. Immerse yourself in a curated selection of top-quality products growth in Africa and enjoy convenient delivery options. Join us now and experience the future of grocery shopping!
         </p>
         <ul id="hero__section__ctas">
             <li class="hero__section__cta__item">
                 <a href="#" class="hero__section__cta">
                     Experience now
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12.5 30C13.8807 30 15 31.1193 15 32.5C15 33.8807 13.8807 35 12.5 35C11.1193 35 10 33.8807 10 32.5C10 31.1193 11.1193 30 12.5 30Z"
-                            stroke="white" stroke-width="2.55" />
-                        <path
-                            d="M27.5 30C28.8807 30 30 31.1192 30 32.5C30 33.8807 28.8807 35 27.5 35C26.1193 35 25 33.8807 25 32.5C25 31.1192 26.1193 30 27.5 30Z"
-                            stroke="white" stroke-width="2.55" />
-                        <path
-                            d="M21.6663 21.6667V18.3333M21.6663 18.3333V15M21.6663 18.3333H24.9997M21.6663 18.3333H18.333"
-                            stroke="white" stroke-width="2.55" stroke-linecap="round" />
-                        <path
-                            d="M3.33301 5L3.76836 5.15307C5.93767 5.91575 7.02234 6.2971 7.64274 7.20497C8.26314 8.11285 8.26314 9.31877 8.26314 11.7306V16.2667C8.26314 21.1693 8.36854 22.7872 9.81254 24.3103C11.2565 25.8333 13.5806 25.8333 18.2288 25.8333H19.9997M27.067 25.8333C29.6687 25.8333 30.9695 25.8333 31.889 25.084C32.8085 24.3347 33.0712 23.0607 33.5963 20.5125L34.4293 16.4712C35.0078 13.5728 35.297 12.1236 34.5572 11.1618C33.8173 10.2 31.2893 10.2 28.481 10.2H18.3722M8.26314 10.2H11.6663"
-                            stroke="white" stroke-width="2.55" stroke-linecap="round" />
-                    </svg>
+                        <path d="M12.5 30C13.8807 30 15 31.1193 15 32.5C15 33.8807 13.8807 35 12.5 35C11.1193 35 10 33.8807 10 32.5C10 31.1193 11.1193 30 12.5 30Z" stroke="white" stroke-width="2.55"/>
+                        <path d="M27.5 30C28.8807 30 30 31.1192 30 32.5C30 33.8807 28.8807 35 27.5 35C26.1193 35 25 33.8807 25 32.5C25 31.1192 26.1193 30 27.5 30Z" stroke="white" stroke-width="2.55"/>
+                        <path d="M21.6663 21.6667V18.3333M21.6663 18.3333V15M21.6663 18.3333H24.9997M21.6663 18.3333H18.333" stroke="white" stroke-width="2.55" stroke-linecap="round"/>
+                        <path d="M3.33301 5L3.76836 5.15307C5.93767 5.91575 7.02234 6.2971 7.64274 7.20497C8.26314 8.11285 8.26314 9.31877 8.26314 11.7306V16.2667C8.26314 21.1693 8.36854 22.7872 9.81254 24.3103C11.2565 25.8333 13.5806 25.8333 18.2288 25.8333H19.9997M27.067 25.8333C29.6687 25.8333 30.9695 25.8333 31.889 25.084C32.8085 24.3347 33.0712 23.0607 33.5963 20.5125L34.4293 16.4712C35.0078 13.5728 35.297 12.1236 34.5572 11.1618C33.8173 10.2 31.2893 10.2 28.481 10.2H18.3722M8.26314 10.2H11.6663" stroke="white" stroke-width="2.55" stroke-linecap="round"/>
+                    </svg>                        
                 </a>
             </li>
-
+        
             <li class="hero__section__cta__item">
                 <a href="#" class="hero__section__cta">
-                    See how it works
+                    See how it works 
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM14.75 11.2728L29 19.5L14.75 27.7272V11.2728Z"
-                            fill="#FFDF39" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM14.75 11.2728L29 19.5L14.75 27.7272V11.2728Z" fill="#FFDF39"/>
                     </svg>
                 </a>
             </li>
         </ul>
     </section>
 
-    <section id="products__section">
+    <section id="products__section" class="section">
         <div id="products__section__container" class="container">
             <div id="products__section__left">
-                <h2 id="products__section__title">Discover a world of flavors at your fingertips</h2>
-                <p id="products__section__paragraph">Step into a vast collection of meticulously curated and organized
-                    groceries that not only cater to your diverse tastes and preferences but also simplifies your
-                    shopping experience.</p>
+                <h2 id="products__section__title" class="section__title">Discover a world of flavors at your fingertips</h2>
+                <p id="products__section__paragraph" class="section__paragraph">Step into a vast collection of meticulously curated and organized groceries that not only cater to your diverse tastes and preferences but also simplifies your shopping experience.</p>
             </div>
 
             <div id="products__section__right">
@@ -130,14 +113,11 @@
         </div>
     </section>
 
-    <section id="payment__section">
+    <section id="payment__section" class="section">
         <div id="payment__section__container" class="container">
             <div id="payment__section__left">
-                <h2 id="payment__section__title">Secure and seamless payments for hassle-free shopping</h2>
-                <p id="payment__section__paragraph">Shop with confidence with our straightforward and secure payment
-                    system that accepts a wide range of payment options including payment at delivery and popular online
-                    payment methods. We partner with trusted and reliable payment gateways to ensure the level of data
-                    security and encryption.</p>
+                <h2 id="payment__section__title" class="section__title">Secure and seamless payments for hassle-free shopping</h2>
+                <p id="payment__section__paragraph" class="section__paragraph">Shop with confidence with our straightforward and secure payment system that accepts a wide range of payment options including payment at delivery and popular online payment methods. We partner with trusted and reliable payment gateways to ensure the level of data security and encryption.</p>
                 <a href="#" id="payment__section__button">Learn more</a>
             </div>
             <div id="payment__section__right">
@@ -145,12 +125,11 @@
         </div>
     </section>
 
-    <section id="deals__section">
+    <section id="deals__section" class="section">
         <div id="deals__section__container" class="container">
             <div id="deals__section__left">
-                <h2 id="deals__section__title">Unbeatable deals and savings on your favorite groceries</h2>
-                <p id="deals__section__paragraph">Incredible offers are just a click away. Discover discounts on a large
-                    range of groceries. Shop smarter with our irresistible deals and make significant savings.</p>
+                <h2 id="deals__section__title" class="section__title">Unbeatable deals and savings on your favorite groceries</h2>
+                <p id="deals__section__paragraph" class="section__paragraph">Incredible offers are just a click away. Discover discounts on a large range of groceries.  Shop smarter with our irresistible deals and make significant savings.</p>
                 <a href="#" id="deals__section__button">Explore it now</a>
             </div>
             <div id="deals__section__right">
@@ -158,14 +137,12 @@
         </div>
     </section>
 
-    <section id="delivery__section">
+    <section id="delivery__section" class="section">
         <div id="delivery__section__container" class="container">
             <div id="delivery__section__left">
-                <h2 id="delivery__section__title">Swift and reliable delivery to your doorstep</h2>
-                <p id="delivery__section__paragraph">Experience the convenience of seamless delivery right to your
-                    doorstep with our exceptional delivery service.
-                    We have built a dedicated network of trusted delivery partners who are committed to bringing your
-                    groceries to you with speed and care 24/7.</p>
+                <h2 id="delivery__section__title" class="section__title">Swift and reliable delivery to your doorstep</h2>
+                <p id="delivery__section__paragraph" class="section__paragraph">Experience the convenience of seamless delivery right to your doorstep with our exceptional delivery service.
+                    We have built a dedicated network of trusted delivery partners who are committed to bringing your groceries to you with speed and care 24/7.</p>
                 <a href="#" id="delivery__section__button">Learn more</a>
             </div>
             <div id="delivery__section__right">
@@ -189,109 +166,82 @@
         </div>
     </section>
 
-    <section class="team-section">
-        <div class="team-group1">
-            <div class="team-header">
-                Meet our beloved Team
+    <section id="team__section">
+        <div id="team__section__container">
+            <div id="team__section__left">
+                <h2 id="team__section__title">Meet our beloved Team</h2>
             </div>
-            <div class="team-container">
-                <div class="member-lavendah">
-                    <div class="user">
-                        <img class="team-image" src="images/WhatsApp Image 2023-07-17 at 14.41.14.jpeg" width="70px"
-                            height="70px" style="border-radius: 50%;" alt="member-image">
-
-                        <div class="details">
-                            <div class="name">
-                                Lavendah K.
-                            </div>
-                            <div class="id">
-                                Backend Developer
-                            </div>
+            <div id="team__section__right">
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__1"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Lavendah K.</p>
+                            <p class="team__member__role">Backend Developer</p>
                         </div>
                     </div>
-                    <div class="team">
-                        I have thoroughly enjoyed working on this project. It has definitely given me a bit more confidence in my skills and have also gained a deeper understanding of what goes behind creating real-life projects.
-                        <div class="media__links">
-                            <a href="https://www.linkedin.com/in/lavendah-mwende-4284871a0/">
-                                <img src="images/linkedin-in.svg" alt="">
-                            </a>
-                            <a href="https://github.com/lavendahkinyua">
-                                <img src="images/github.svg" alt="">
-                            </a>
-                            <a href="https://twitter.com/MwendeKinyua1">
-                                <img src="images/twitter.svg" alt="">
-                            </a>
-                        </div>
+                    <p class="team__member__quote">
+                        I have thoroughly enjoyed working on this project. It has definitely given me a bit more 
+                        confidence in my skills and have also gained a deeper understanding of what goes behind 
+                        creating real-life projects.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/lavendah-mwende-4284871a0/" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="https://github.com/lavendahkinyua" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/MwendeKinyua1" target="_blank" class="team__member__network team__member__network__twitter"></a>
                     </div>
                 </div>
-                <div class="member-mohamed">
-                    <div class="user">
-                        <img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/users/photos/000/028/996/thumb/profilMSmodified.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230718T201111Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=ec185b4af4095281eafa27363a349376ba4dab8bee4591b2256fccd94d301aef" width="70px" height="70px" alt="">
-                        <div class="details">
-                            <div class="name">
-                                Mohamed S.
-                            </div>
-                            <div class="id">
-                                Devops & Dabase Developer
-                            </div>
+                
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__2"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Mohamed S.</p>
+                            <p class="team__member__role">Devops & Dabase Developer</p>
                         </div>
                     </div>
-                    <div class="team">
-                        The SwiftCart team is like a second family to me. I learned a lot alongside my teammates and this is only the beginning. I am devoting all my energy to it, to make this application useful for everyone and to meet the needs of our future users.
-                        <div class="media__links">
-                            <a href="https://www.linkedin.com/in/mohamed-senghor-5479a91ba">
-                                <img src="images/linkedin-in.svg" alt="">
-                            </a>
-                            <a href="https://github.com/BLACKMouha">
-                                <img src="images/github.svg" alt="">
-                            </a>
-                            <a href="https://twitter.com/MohamedSENGHOR2">
-                                <img src="images/twitter.svg" alt="">
-                            </a>
-                        </div>
+                    <p class="team__member__quote">
+                        The SwiftCart team is like a second family to me. I learned a lot alongside my 
+                        teammates and this is only the beginning. I am devoting all my energy to it, 
+                        to make this application useful for everyone and to meet the needs of our 
+                        future users.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/mohamed-senghor-5479a91ba" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="https://github.com/BLACKMouha" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/MohamedSENGHOR2" target="_blank" class="team__member__network team__member__network__twitter"></a>
                     </div>
                 </div>
-                <div class="member-moses">
-                    <div class="user">
-                        <img src="images/D3894D7D-EBFF-44B5-BE2F-46DFBCB640A0.jpg" width="70px" height="70px"
-                            style="border-radius: 50%;" alt="">
-                        <div class="details">
-                            <div class="name">
-                                Moses M.
-                            </div>
-                            <div class="id">
-                                Frontend Developer
-                            </div>
+
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__3"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Moses M.</p>
+                            <p class="team__member__role">Frontend Developer</p>
                         </div>
                     </div>
-                    <div class="team">
-                        This project has been a great learning experience for me. I got to dive deeper into CI/CD which
-                        helped us a lot with collaboration. I also got to learn a lot about the different technologies
-                        we used in this project.
-                        <div class="media__links">
-                            <a href="https://www.linkedin.com/in/ngwanatuka-molepo-75b499259">
-                                <img src="images/linkedin-in.svg" alt="">
-                            </a>
-                            <a href="http://github.com/Ngwanatuka">
-                                <img src="images/github.svg" alt="">
-                            </a>
-                            <a href="https://twitter.com/molepo_moses">
-                                <img src="images/twitter.svg" alt="">
-                            </a>
-                        </div>
-
+                    <p class="team__member__quote">
+                        This project has been a great learning experience for me. I got to dive deeper 
+                        into CI/CD which helped us a lot with collaboration. I also got to learn a lot about 
+                        the different technologies we used in this project.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/ngwanatuka-molepo-75b499259" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="http://github.com/Ngwanatuka" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/molepo_moses" target="_blank" class="team__member__network team__member__network__twitter"></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="section">
         <div id="footer__container">
             <div id="footer__nav">
                 <div id="footer__nav__logo">
                     <a id="footer__logo"></a>
-                    <p>Online platform for shopping groceries in Africa.</p>
+                    <p>Online platform for shopping groceries in Africa.</p>    
                 </div>
                 <nav id="bottom__navbar">
                     <ul id="bottom__navbar__links">
@@ -300,14 +250,13 @@
                         <li class="bottom__navbar__link__item"><a href="#" class="bottom__navbar__link">Contact</a></li>
                         <li class="bottom__navbar__link__item"><a href="#" class="bottom__navbar__link">About</a></li>
                     </ul>
-                </nav>
+                </nav>    
             </div>
             <hr>
-            <p>&copy; 2023 SwiftCart. All rights reserved</p>
+            <p>&copy; 2023 SwiftCart. All rights reserved</p>    
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
-
 </html>
