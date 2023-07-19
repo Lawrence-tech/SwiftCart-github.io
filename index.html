@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="style/deals.css">
     <link rel="stylesheet" href="style/delivery.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/teams.css">
     <link rel="stylesheet" href="style/footer.css">
     <title>SwiftCart - Landing Page</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="index.html" class="header__logo"></a>
 
         <nav id="top__navbar">
@@ -32,15 +33,16 @@
                 <li class="top__navbar__cta__item"><a href="login.html" class="top__navbar__cta">Log In</a></li>
                 <li class="top__navbar__cta__item"><a href="signup.html" class="top__navbar__cta">Sign Up</a></li>
             </ul>
-            <div id="top__navbar__hamburger">
-                <div class="hamburger__bar" id="hamburger__bar1"></div>
-                <div class="hamburger__bar" id="hamburger__bar2"></div>
-                <div class="hamburger__bar" id="hamburger__bar3"></div>
-            </div>
         </nav>
+
+        <div id="top__navbar__hamburger">
+            <div class="hamburger__bar" id="hamburger__bar1"></div>
+            <div class="hamburger__bar" id="hamburger__bar2"></div>
+            <div class="hamburger__bar" id="hamburger__bar3"></div>
+        </div>
     </header>
 
-    <section id="hero__section">
+    <section id="hero__section" class="section">
         <h1>
             Best Platform of High Quality Groceries Delivery in Africa.
         </h1>
@@ -71,11 +73,11 @@
         </ul>
     </section>
 
-    <section id="products__section">
+    <section id="products__section" class="section">
         <div id="products__section__container" class="container">
             <div id="products__section__left">
-                <h2 id="products__section__title">Discover a world of flavors at your fingertips</h2>
-                <p id="products__section__paragraph">Step into a vast collection of meticulously curated and organized groceries that not only cater to your diverse tastes and preferences but also simplifies your shopping experience.</p>
+                <h2 id="products__section__title" class="section__title">Discover a world of flavors at your fingertips</h2>
+                <p id="products__section__paragraph" class="section__paragraph">Step into a vast collection of meticulously curated and organized groceries that not only cater to your diverse tastes and preferences but also simplifies your shopping experience.</p>
             </div>
 
             <div id="products__section__right">
@@ -111,11 +113,11 @@
         </div>
     </section>
 
-    <section id="payment__section">
+    <section id="payment__section" class="section">
         <div id="payment__section__container" class="container">
             <div id="payment__section__left">
-                <h2 id="payment__section__title">Secure and seamless payments for hassle-free shopping</h2>
-                <p id="payment__section__paragraph">Shop with confidence with our straightforward and secure payment system that accepts a wide range of payment options including payment at delivery and popular online payment methods. We partner with trusted and reliable payment gateways to ensure the level of data security and encryption.</p>
+                <h2 id="payment__section__title" class="section__title">Secure and seamless payments for hassle-free shopping</h2>
+                <p id="payment__section__paragraph" class="section__paragraph">Shop with confidence with our straightforward and secure payment system that accepts a wide range of payment options including payment at delivery and popular online payment methods. We partner with trusted and reliable payment gateways to ensure the level of data security and encryption.</p>
                 <a href="#" id="payment__section__button">Learn more</a>
             </div>
             <div id="payment__section__right">
@@ -123,11 +125,11 @@
         </div>
     </section>
 
-    <section id="deals__section">
+    <section id="deals__section" class="section">
         <div id="deals__section__container" class="container">
             <div id="deals__section__left">
-                <h2 id="deals__section__title">Unbeatable deals and savings on your favorite groceries</h2>
-                <p id="deals__section__paragraph">Incredible offers are just a click away. Discover discounts on a large range of groceries.  Shop smarter with our irresistible deals and make significant savings.</p>
+                <h2 id="deals__section__title" class="section__title">Unbeatable deals and savings on your favorite groceries</h2>
+                <p id="deals__section__paragraph" class="section__paragraph">Incredible offers are just a click away. Discover discounts on a large range of groceries.  Shop smarter with our irresistible deals and make significant savings.</p>
                 <a href="#" id="deals__section__button">Explore it now</a>
             </div>
             <div id="deals__section__right">
@@ -135,11 +137,11 @@
         </div>
     </section>
 
-    <section id="delivery__section">
+    <section id="delivery__section" class="section">
         <div id="delivery__section__container" class="container">
             <div id="delivery__section__left">
-                <h2 id="delivery__section__title">Swift and reliable delivery to your doorstep</h2>
-                <p id="delivery__section__paragraph">Experience the convenience of seamless delivery right to your doorstep with our exceptional delivery service.
+                <h2 id="delivery__section__title" class="section__title">Swift and reliable delivery to your doorstep</h2>
+                <p id="delivery__section__paragraph" class="section__paragraph">Experience the convenience of seamless delivery right to your doorstep with our exceptional delivery service.
                     We have built a dedicated network of trusted delivery partners who are committed to bringing your groceries to you with speed and care 24/7.</p>
                 <a href="#" id="delivery__section__button">Learn more</a>
             </div>
@@ -148,19 +150,93 @@
         </div>
     </section>
 
-    <section id="about__section">
+    <section id="about__section" class="section">
         <div id="about__section__container" class="container">
             <div id="about__section__left">
-                <h2 id="about__section__title">About Us</h2>
-                <p id="about__section__paragraph">At SwiftCart, our missions are centered on providing access to diversified, rich and healthy food, but also on promoting local consumption and all this at a lower cost.
-                    We believe that the internet gives endless opportunities and possibilities to the purchase of groceries.<br> SwiftCart we realize that every individual is different, everyone has their own dietary needs. That's why we provide you a personalized shopping experience in the most simple, convenient, secure and affordable way without having to leave the comfort of your home.</p>
+                <h2 id="about__section__title" class="section__title">About Us</h2>
+                <p id="about__section__paragraph" class="section__paragraph">
+                    At SwiftCart, our missions are centered on providing access to diversified, rich and healthy food, but also on promoting local consumption and all this at a lower cost.
+                    We believe that the internet gives endless opportunities and possibilities to the purchase of groceries.
+                    <br>SwiftCart we realize that every individual is different, everyone has their own dietary needs. That's why we provide you a personalized shopping experience in the most simple, convenient, secure and affordable way without having to leave the comfort of your home.
+                </p>
+                <a href="#" id="about__section__button">Get started</a>
             </div>
             <div id="about__section__right">
             </div>
         </div>
     </section>
 
-    <footer>
+    <section id="team__section">
+        <div id="team__section__container">
+            <div id="team__section__left">
+                <h2 id="team__section__title">Meet our beloved Team</h2>
+            </div>
+            <div id="team__section__right">
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__1"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Lavendah K.</p>
+                            <p class="team__member__role">Backend Developer</p>
+                        </div>
+                    </div>
+                    <p class="team__member__quote">
+                        I have thoroughly enjoyed working on this project. It has definitely given me a bit more 
+                        confidence in my skills and have also gained a deeper understanding of what goes behind 
+                        creating real-life projects.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/lavendah-mwende-4284871a0/" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="https://github.com/lavendahkinyua" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/MwendeKinyua1" target="_blank" class="team__member__network team__member__network__twitter"></a>
+                    </div>
+                </div>
+                
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__2"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Mohamed S.</p>
+                            <p class="team__member__role">Devops & Dabase Developer</p>
+                        </div>
+                    </div>
+                    <p class="team__member__quote">
+                        The SwiftCart team is like a second family to me. I learned a lot alongside my 
+                        teammates and this is only the beginning. I am devoting all my energy to it, 
+                        to make this application useful for everyone and to meet the needs of our 
+                        future users.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/mohamed-senghor-5479a91ba" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="https://github.com/BLACKMouha" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/MohamedSENGHOR2" target="_blank" class="team__member__network team__member__network__twitter"></a>
+                    </div>
+                </div>
+
+                <div class="team__member">
+                    <div class="team__member__profile">
+                        <div class="team__member__profile__picture" id="team__member__profile__picture__3"></div>
+                        <div class="team__member__profile__text">
+                            <p class="team__member__fullname">Moses M.</p>
+                            <p class="team__member__role">Frontend Developer</p>
+                        </div>
+                    </div>
+                    <p class="team__member__quote">
+                        This project has been a great learning experience for me. I got to dive deeper 
+                        into CI/CD which helped us a lot with collaboration. I also got to learn a lot about 
+                        the different technologies we used in this project.
+                    </p>
+                    <div class="team__member__networks">
+                        <a href="https://www.linkedin.com/in/ngwanatuka-molepo-75b499259" target="_blank" class="team__member__network team__member__network__linkedin"></a>
+                        <a href="http://github.com/Ngwanatuka" target="_blank" class="team__member__network team__member__network__github"></a>
+                        <a href="https://twitter.com/molepo_moses" target="_blank" class="team__member__network team__member__network__twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section">
         <div id="footer__container">
             <div id="footer__nav">
                 <div id="footer__nav__logo">
