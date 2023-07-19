@@ -75,15 +75,15 @@
 }
 
 #team__member__profile__picture__1 {
-    background-image: url('/images/WhatsApp\ Image\ 2023-07-17\ at\ 14.41.14.jpeg');
+    background-image: url('../images/WhatsApp\ Image\ 2023-07-17\ at\ 14.41.14.jpeg');
 }
 
 #team__member__profile__picture__2 {
-    background-image: url('/images/mouha.png');
+    background-image: url('../images/mouha.png');
 }
 
 #team__member__profile__picture__3 {
-    background-image: url('/images/D3894D7D-EBFF-44B5-BE2F-46DFBCB640A0.jpg');
+    background-image: url('../images/D3894D7D-EBFF-44B5-BE2F-46DFBCB640A0.jpg');
 }
 
 .team__member__profile__text {
@@ -121,13 +121,13 @@
 }
 
 .team__member__network__linkedin {
-    background-image: url('/images/linkedin-in.svg');
+    background-image: url('../images/linkedin-in.svg');
 }
 
 .team__member__network__github {
-    background-image: url('/images/github.svg');
+    background-image: url('../images/github.svg');
 }
 
 .team__member__network__twitter {
-    background-image: url('/images/twitter.svg');
+    background-image: url('../images/twitter.svg');
 }
