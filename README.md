@@ -1,5 +1,7 @@
 README for SwiftCart: Streamlined Grocery Delivery
 
+Link to the landing page : https://ngwanatuka.github.io/SwiftCart-github.io/
+
 ## Team Members
 
 - Moses MOLEPO: Frontend Developer. Responsible for designing and implementing the user interface and user experience of the grocery delivery system.
