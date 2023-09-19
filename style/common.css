@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
+    --hero__background-color: #262626;
     --primary-color: #0ACF83;
     --secondary-color: #FFF;
     --tertiary-color: #CCF8E6;

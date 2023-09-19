@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     padding: var(--padding-big) var(--padding-big);
     z-index: 1000;
+    overflow: none;
 }
 
 .header__logo {
@@ -137,4 +138,38 @@ header {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     box-shadow: 0px 0px 8px 4px rgba(10, 207, 131, 0.30);
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 2.7rem;
+    right: 8rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    #top__navbar__ctas {
+        display: none;
+    }
+
+    #top__navbar__links {
+        /* display: none; */
+    }
 }
