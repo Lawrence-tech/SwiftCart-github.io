@@ -74,7 +74,7 @@ header {
 
 .header__logo {
   display: flex;
-  width: 11%;
+  width: 20rem;
   max-width: 170px;
   height: 42.285px;
   justify-content: center;
@@ -124,8 +124,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px var(--padding-big);
-  border-radius: 5px;
+  padding: 0.3rem var(--padding-big);
+  border-radius: 0.3rem;
   border: 2px solid var(--primary-color);
 }
 
@@ -144,9 +144,9 @@ header {
 }
 
 .hamburger__bar {
-  width: 35px;
-  height: 5px;
-  margin: 6px 0;
+  width: 2.6rem;
+  height: 0.3rem;
+  margin: 0.37rem 0;
   border-radius: 2px;
   background-color: var(--secondary-color);
   transform: 0.4s;
