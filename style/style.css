@@ -576,11 +576,10 @@ header {
   flex: 1 0 auto;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1050px) {
   #payment__section__container {
     display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
 }
 
@@ -643,6 +642,13 @@ header {
   align-items: center;
   justify-content: space-between;
   position: relative;
+}
+
+@media (max-width: 1050px) {
+  #deals__section__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 #deals__section__left {
