@@ -82,5 +82,5 @@ footer {
 #footer__container p:last-child {
     width: 100%;
     text-align: right;
-    color: var(--tertiary-color);
+    color: var(--tertiary-color);  
 }
