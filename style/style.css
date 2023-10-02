@@ -257,7 +257,13 @@ header {
 }
 
 /* Media Queries */
-@media (max-width: 25rem) {
+@media (max-width: 414px) {
+  .header__logo {
+    display: flex;
+    width: 60%;
+    max-width: 122px;
+    height: 1.9rem;
+  }
   .toggle-button {
     display: flex;
   }
