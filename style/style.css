@@ -470,8 +470,8 @@ header {
   }
 
   .view__button {
-    width: 20%;
-    
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -611,7 +611,6 @@ header {
   font-size: var(--font-size-medium);
   padding: var(--padding-small);
   color: var(--secondary-color);
-  font-size: var(--font-size-medium);
   cursor: pointer;
 }
 
