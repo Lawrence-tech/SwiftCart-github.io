@@ -818,6 +818,33 @@ header {
   background-size: cover;
 }
 
+@media (max-width: 414px) {
+  #payment__section__title {
+    font-size: 1.25rem !important;
+    margin-left: 2rem;
+    margin-bottom: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #payment__section__left {
+    display: flex;
+    align-items: center;
+  }
+
+  #payment__section__right {
+    width: 16.406285rem;
+    height: 18.59375rem;
+  }
+
+  #payment__section__paragraph {
+    width: 90%;
+    font-size: 0.75rem !important;
+  }
+
+  #payment__section__button {
+    font-size: 0.75rem !important;
+  }
+}
 
 
 /* Path: style/deals */
