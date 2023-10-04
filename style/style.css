@@ -122,7 +122,7 @@ header {
   .header__logo {
     display: flex;
     width: 15rem;
-    max-width: 170px;
+    max-width: 9.375rem;
     height: 2.625rem;
   }
 }
@@ -264,6 +264,7 @@ header {
     max-width: 122px;
     height: 1.9rem;
   }
+
   .toggle-button {
     display: flex;
   }
@@ -338,8 +339,8 @@ header {
 
   #hero__section p {
     font-size: 0.59rem !important;
-    width: 83%;
-    line-height: 50%;
+    width: 70%;
+    line-height: 0.82rem;
   }
 
   .hero__section__cta {
@@ -400,7 +401,7 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   #hero__section {
     background-size: cover;
   }
@@ -418,6 +419,60 @@ header {
   flex: 1 0 auto;
   padding-top: 5.625rem;
   padding-bottom: 5.625rem;
+}
+
+@media (max-width: 414px) {
+  #products__section__title {
+    font-size: 1.25rem !important;
+    margin-left: 2rem;
+    margin-bottom: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #products__section__paragraph {
+    font-size: 0.75rem !important;
+  }
+
+  .product .image {
+    width: 3.375rem !important;
+    height: 3.375rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #products__section__right .products .product .product__name {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .product:nth-child(1) .product__name, .product:nth-child(1) .explore__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .product:nth-child(2) .product__name, .product:nth-child(2) .explore__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .product:nth-child(3) .product__name, .product:nth-child(3) .explore__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .product:nth-child(4) .product__name, .product:nth-child(4) .explore__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #products__section__right .products .product {
+    width: 46% !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .view__button {
+    width: 20%;
+    
+  }
 }
 
 #products__section__container {
@@ -448,7 +503,7 @@ header {
 
 #products__section__title {
   color: var(--quaternary-color);
-  margin-bottom: 5rem;
+  margin-bottom: 10%;
 }
 
 #products__section__paragraph {
