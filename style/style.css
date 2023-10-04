@@ -829,20 +829,24 @@ header {
   #payment__section__left {
     display: flex;
     align-items: center;
+    transition: all 0.3s ease-in-out;
   }
 
   #payment__section__right {
     width: 16.406285rem;
     height: 18.59375rem;
+    transition: all 0.3s ease-in-out;
   }
 
   #payment__section__paragraph {
     width: 90%;
     font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
   }
 
   #payment__section__button {
     font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -918,6 +922,38 @@ header {
   background-size: cover;
 }
 
+@media (max-width: 414px) {
+  #deals__section__title {
+    font-size: 1.25rem !important;
+    margin-left: 2rem;
+    margin-bottom: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #deals__section__left {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #deals__section__right {
+    width: 16.406285rem;
+    height: 12.8125rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #deals__section__paragraph {
+    width: 90%;
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #deals__section__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 /* delivery */
 #delivery__section {
   width: 100%;
@@ -986,6 +1022,38 @@ header {
   background-repeat: no-repeat;
   background-image: url("../images/delivery.svg");
   background-size: cover;
+}
+
+@media (max-width: 414px) {
+  #delivery__section__title {
+    font-size: 1.25rem !important;
+    margin-left: 2rem;
+    margin-bottom: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #delivery__section__left {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #delivery__section__right {
+    width: 16.406285rem;
+    height: 16.406285rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #delivery__section__paragraph {
+    width: 90%;
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #delivery__section__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 /* Path: style/about.css */
@@ -1069,6 +1137,38 @@ header {
   background-image: url("../images/about.png");
   background-size: cover;
   position: relative;
+}
+
+@media (max-width: 414px) {
+  #about__section__title {
+    font-size: 1.25rem !important;
+    margin-left: 2rem;
+    margin-bottom: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #about__section__left {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #about__section__right {
+    width: 16.406285rem;
+    height: 16.406285rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #about__section__paragraph {
+    width: 90%;
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #about__section__button {
+    font-size: 0.75rem !important;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 /* Path: style/footer.css */
@@ -1162,3 +1262,4 @@ footer {
   font-size: inherit;
   margin-right: 0.5rem;
 }
+
