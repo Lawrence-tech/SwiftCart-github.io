@@ -8,6 +8,18 @@ window.onscroll = () => {
 }
 
 const hamburger = document.getElementById('top__navbar__hamburger');
+const navMenu = document.getElementById('top__navbar');
+
 hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('close');
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 });
+
+const navLinks = document.querySelectorAll('#top__navbar__links a');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
