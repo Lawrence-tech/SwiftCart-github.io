@@ -183,10 +183,8 @@ header {
 @media (max-width: 767px) {
   #top__navbar__hamburger {
     display: block;
-    flex-direction: column;
-    justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 24px;
     padding-right: 20%;
   }
 
@@ -219,18 +217,22 @@ header {
   #top__navbar {
     position: fixed;
     left: -100%;
-    top: 80px;
+    top: 73px;
     gap: 0;
     flex-direction: column;
     background-color: #2a2929;
-    height: 43.5%;
+    height: 56.5%;
     width: 75%;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+    
   }
 
   #top__navbar__links {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 3.45rem;
     margin: 16px 0;
   }
 
@@ -244,6 +246,9 @@ header {
     gap: 10%;
   }
 
+  .top__navbar__cta__item {
+    margin-bottom: 1rem;
+  }
   
 
 }
@@ -318,7 +323,6 @@ header {
 /* Path: style/hero.css */
 #hero__section {
   background-image: url("../images/hero_bg.png");
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -344,7 +348,7 @@ header {
 
 @media (max-width: 767px) {
   #hero__section {
-    margin-left: 15rem;
+    width: 100%;
     font-size: inherit;
   }
 
@@ -358,12 +362,16 @@ header {
   #hero__section h1 {
     font-size: var(--font-size-medium);
   }
+
+  .hero__section__cta {
+    font-size: 0.75rem;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (max-width: 414px) {
   #hero__section {
     width: 100%;
-    margin-left: 7rem;
     font-size: inherit;
   }
 
@@ -440,12 +448,6 @@ header {
   gap: 1rem;
 }
 
-/* Media Queries */
-@media (max-width: 767px) {
-  #hero__section {
-    width: 135%;
-  }
-}
 
 /* Path: style/products.css */
 
