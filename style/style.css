@@ -25,7 +25,8 @@
   --font-size-very-big: 2.375rem;
   --font-style-normal: normal;
   --font-weight-normal: 400;
-  --font-weight-medium: 600;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
   --font-family: "Poppins", sans-serif;
 }
@@ -121,6 +122,7 @@ header {
     max-width: 9.375rem;
     height: 2.625rem;
   }
+
 }
 
 #top__navbar {
@@ -291,7 +293,7 @@ header {
   #top__navbar {
     position: fixed;
     left: -100%;
-    top: 4.5625rem;
+    top: 5.2%;
     gap: 0;
     flex-direction: column;
     background-color: #2a2929;
@@ -302,6 +304,8 @@ header {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
     
   }
+
+
 
   #top__navbar__links {
     display: flex;
@@ -323,7 +327,6 @@ header {
   .top__navbar__cta__item {
     margin-bottom: 1rem;
   }
-  
 
 }
 
@@ -337,6 +340,8 @@ header {
   box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(89, 89, 89, 0.3);
   overflow: hidden;
 }
+
+
 
 .scrolled__header a,
 .scrolled__header .top__navbar__cta__item:first-child .top__navbar__cta {
@@ -393,7 +398,7 @@ header {
   }
 
   #top__navbar__ctas {
-    display: none;
+    display: block;
   }
 }
 
@@ -417,7 +422,7 @@ header {
   max-width: 37.5rem;
   font-size: var(--font-size-very-big);
   font-style: var(--font-size-normal);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-semi-bold);
   line-height: normal;
   letter-spacing: -0.03563rem;
   margin-top: 1.25rem;
@@ -643,7 +648,7 @@ header {
   color: var(--quaternary-color);
   font-size: var(--font-size-medium);
   font-style: var(--font-style-normal);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-semi-bold);
   line-height: normal;
   letter-spacing: -0.02625rem;
 }
@@ -804,16 +809,16 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 40.5624rem;
-  height: 19.1875rem;
+  width: 40.5624rem !important;
+  height: 19.1875rem !important;
   flex-shrink: 0;
 }
 
 .store-container {
   display: flex;
   align-items: center;
-  width: 18.5rem;
-  height: 4.375rem;
+  width: 18.5rem !important;
+  height: 4.375rem !important;
   flex-shrink: 0;
   border: none;
   background-color: white;
@@ -829,8 +834,8 @@ header {
 
 #store__button {
   display: flex;
-  width: 9.75rem;
-  height: 3.43rem;
+  width: 9.75rem !important;
+  height: 3.43rem !important;
   flex-shrink: 0;
   background-color: #0acf83;
   justify-content: center;
@@ -842,7 +847,7 @@ header {
 #store__selection__section__button {
   color: #fff;
   font-family: Poppins;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
