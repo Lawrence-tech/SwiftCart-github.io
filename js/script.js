@@ -7,6 +7,15 @@ window.onscroll = () => {
     }
 }
 
+const navbar__scrolled = document.getElementById('top__navbar');
+window.onscroll = () => {
+    if (window.scrollY > 10) {
+        navbar__scrolled.classList.add('scrolled');
+    } else {
+        navbar__scrolled.classList.remove('scrolled');
+    }
+}
+
 const hamburger = document.getElementById('top__navbar__hamburger');
 const navMenu = document.getElementById('top__navbar');
 

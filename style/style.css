@@ -122,7 +122,6 @@ header {
     max-width: 9.375rem;
     height: 2.625rem;
   }
-
 }
 
 #top__navbar {
@@ -196,23 +195,23 @@ header {
     margin: 0.375rem 0 !important;
     border-radius: 0.125rem;
     background-color: var(--secondary-color);
-    -webkit-transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  
+
   #top__navbar__hamburger:hover .hamburger__bar {
     background-color: var(--primary-color);
   }
-  
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(2){
+
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(2) {
     opacity: 0;
   }
 
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(1){
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(3){
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
@@ -228,7 +227,6 @@ header {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
-    
   }
 
   #top__navbar__links {
@@ -237,7 +235,7 @@ header {
     gap: 3.45rem;
     margin: 1rem 0;
   }
-  
+
   #top__navbar.active {
     left: 0;
   }
@@ -251,10 +249,7 @@ header {
   .top__navbar__cta__item {
     margin-bottom: 1rem;
   }
-  
-
 }
-
 
 @media (max-width: 767px) {
   #top__navbar__hamburger {
@@ -270,42 +265,55 @@ header {
     margin: 0.25rem 0;
     border-radius: 0.125rem;
     background-color: var(--secondary-color);
-    -webkit-transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  
+
   #top__navbar__hamburger:hover .hamburger__bar {
     background-color: var(--primary-color);
   }
-  
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(2){
+
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(2) {
     opacity: 0;
   }
 
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(1){
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  #top__navbar__hamburger.active .hamburger__bar:nth-child(3){
+  #top__navbar__hamburger.active .hamburger__bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
   #top__navbar {
     position: fixed;
     left: -100%;
-    top: 5.2%;
+    top: 0%;
     gap: 0;
     flex-direction: column;
     background-color: #2a2929;
     height: 56.5%;
-    width: 75%;
+    width: 100%;
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
-    
   }
 
+  #top__navbar.scrolled {
+    background-color: var(--secondary-color);
+  }
 
+  .scrolled__header a,
+  .scrolled__header .top__navbar__cta__item:first-child .top__navbar__cta {
+    color: var(--quaternary-color);
+  }
+
+  .scrolled__header {
+    background-color: var(--secondary-color) !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(89, 89, 89, 0.3);
+    overflow: hidden;
+  }
 
   #top__navbar__links {
     display: flex;
@@ -327,21 +335,14 @@ header {
   .top__navbar__cta__item {
     margin-bottom: 1rem;
   }
-
 }
 
-
-
-
-
 .scrolled__header {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
   transition: background-color 200ms linear;
   box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(89, 89, 89, 0.3);
   overflow: hidden;
 }
-
-
 
 .scrolled__header a,
 .scrolled__header .top__navbar__cta__item:first-child .top__navbar__cta {
@@ -399,6 +400,10 @@ header {
 
   #top__navbar__ctas {
     display: block;
+  }
+
+  #top__navbar {
+    width: 100%;
   }
 }
 
@@ -529,7 +534,6 @@ header {
   justify-content: space-between;
   gap: 1rem;
 }
-
 
 /* Path: style/products.css */
 
@@ -784,7 +788,6 @@ header {
   margin-bottom: 1.25rem;
 }
 
-
 #store__selection__section__title {
   text-align: center;
   font-size: 1.8125rem !important;
@@ -801,7 +804,6 @@ header {
     transition: all 0.3s ease-in-out;
   }
 }
-
 
 .store__container {
   display: flex;
@@ -830,7 +832,6 @@ header {
 .store-container:last-child {
   margin-right: 0;
 }
-
 
 #store__button {
   display: flex;
