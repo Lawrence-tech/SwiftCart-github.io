@@ -326,7 +326,7 @@ header {
 }
 
 .scrolled__header {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--secondary-color);
   transition: background-color 200ms linear;
   box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(89, 89, 89, 0.3);
   overflow: hidden;

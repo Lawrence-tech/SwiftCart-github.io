@@ -1,18 +1,12 @@
 const header = document.querySelector('header');
+const navbScrolled = document.getElementById('top__navbar');
 window.onscroll = () => {
     if (window.scrollY > 10) {
         header.classList.add('scrolled__header');
+        navbScrolled.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled__header');
-    }
-}
-
-const navbar__scrolled = document.getElementById('top__navbar');
-window.onscroll = () => {
-    if (window.scrollY > 10) {
-        navbar__scrolled.classList.add('scrolled');
-    } else {
-        navbar__scrolled.classList.remove('scrolled');
+        navbScrolled.classList.remove('scrolled');
     }
 }
 
