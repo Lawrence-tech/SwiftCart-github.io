@@ -303,18 +303,6 @@ header {
     background-color: var(--secondary-color);
   }
 
-  .scrolled__header a,
-  .scrolled__header .top__navbar__cta__item:first-child .top__navbar__cta {
-    color: var(--quaternary-color);
-  }
-
-  .scrolled__header {
-    background-color: var(--secondary-color) !important;
-    transition: background-color 200ms linear;
-    box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(89, 89, 89, 0.3);
-    overflow: hidden;
-  }
-
   #top__navbar__links {
     display: flex;
     flex-direction: column;
