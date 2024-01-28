@@ -19,7 +19,7 @@ header {
     height: 42.285px;
     justify-content: center;
     align-items: flex-start;
-    background-image: url('../images/swifcart_logo.png');
+    background-image: url('../images/navio.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +169,7 @@ header {
         display: none;
     }
 
-    #top__navbar__links {
-        /* display: none; */
-    }
+    /*#top__navbar__links {
+         display: none; 
+    }*/
 }

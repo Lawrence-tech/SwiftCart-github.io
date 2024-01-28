@@ -6,7 +6,7 @@
 }
 
 #store__header {
-  color: #254337;
+  color: orangered;
 }
 
 .store__container {
@@ -47,7 +47,7 @@
   width: 156px;
   height: 55px;
   flex-shrink: 0;
-  background-color: #0acf83;
+  background-color: orange;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
