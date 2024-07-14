@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --hero__background-color: #FFDD95;
-  --primary-color: #FFA500;
+  --hero__background-color: #262626;
+  --primary-color: #0acf83;
   --secondary-color: #fff;
-  --tertiary-color: #E9F6FF;
-  --quaternary-color: #280274;
+  --tertiary-color: #ccf8e6;
+  --quaternary-color: #162a23;
   --quinary-color: #ffdf39;
   --margin-small: 1rem;
   --margin-medium: 1.5rem;
@@ -73,7 +73,6 @@ header {
   justify-content: space-between;
   padding: 2% 5%;
   z-index: 1000;
-  background-color: #E9F6FF;
 }
 
 @media (max-width: 767px) {
@@ -109,7 +108,7 @@ header {
   height: 2.6428125rem;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("../images/navio_logo.png");
+  background-image: url("../images/logo-removebg-preview.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,10 +141,10 @@ header {
 }
 
 .top__navbar__link {
-  color: var(--quaternary-color);
+  color: var(--secondary-color);
 }
 
-/*.top__navbar__link.active,*/
+.top__navbar__link.active,
 .top__navbar__link:hover {
   color: var(--primary-color);
   font-weight: var(--font-weight-normal);
@@ -397,8 +396,65 @@ header {
 }
 
 /* Path: style/hero.css */
-#hero__section {
-  background-image: url("../images/road_truck.jpg");
+
+.home{
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(../images/promot.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+}
+
+.home h1{
+  color: #fff;
+  font-size: 5.5rem;
+}
+
+.home h2{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.home .wave{
+  position: absolute;
+  bottom: -.5rem;
+  left: 0;
+  height: 11rem;
+  width: 100%;
+  background: url(../images/wave.png);
+  background-size: 100rem 11rem;
+  animation: waves 8s linear infinite;
+  background-repeat: repeat-x;
+}
+
+.home .wave2{
+  animation-direction: reverse;
+  animation-duration: 6s;
+  opacity: .3;
+}
+
+.home .wave3{
+  animation-duration: 4s;
+  opacity: .5;
+}
+
+@keyframes waves{
+  0%{
+      background-position-x: 0;
+  }
+  100%{
+      background-position-x: 100rem;
+  }
+}
+/* #hero__section {
+  background-image: url("../images/promot.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -412,7 +468,7 @@ header {
 }
 
 #hero__section h1 {
-  color: var(--secondary-color);
+  color: var(--pri);
   max-width: 37.5rem;
   font-size: var(--font-size-very-big);
   font-style: var(--font-size-normal);
@@ -497,8 +553,8 @@ header {
 .hero__section__cta__item:first-child {
   border: 0.1875rem solid var(--primary-color);
   padding: 0.625rem var(--padding-small);
-  background-color: var(--primary-color);
-  box-shadow: 0rem 0rem 0.5rem 0.25rem grey;
+  background-color: #0acf83;
+  box-shadow: 0rem 0rem 0.5rem 0.25rem rgba(10, 207, 131, 0.3);
   border-radius: 0.3125rem;
   font-size: var(--font-size-medium);
 }
@@ -522,16 +578,8 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-/*packages section*/
-#packages {
-  padding: 100px;
-  text-align: center;
-}
+} */
 
-.price {
-  text-align: left;
-}
 /* Path: style/products.css */
 
 #products__section {
@@ -704,11 +752,11 @@ header {
 }
 
 .product:nth-child(2) {
-  background-color: #fff;
+  background-color: #ffe7ed;
 }
 
 .product:nth-child(3) {
-  background-color: #fff;
+  background-color: #baf2bf;
 }
 
 .product:nth-child(4) {
@@ -717,35 +765,35 @@ header {
 
 .product:nth-child(1) .image {
   scale: 1.5;
-  background: url("../images/GPS-removebg-preview.png") 100% / contain no-repeat;
+  background: url("../images/promot.jpg") 100% / contain no-repeat;
 }
 
 .product:nth-child(2) .image {
-  background: url("../images/parked_truck.jpg") 100% / contain no-repeat;
+  background: url("../images/product_image_2.png") 100% / contain no-repeat;
 }
 
 .product:nth-child(3) .image {
   scale: 1.3;
-  background: url("../images/GPS-removebg-preview.png") 100% / contain no-repeat;
+  background: url("../images/product_image_3.png") 100% / contain no-repeat;
 }
 
 .product:nth-child(4) .image {
-  background: url("../images/parked_truck.jpg") 100% / contain no-repeat;
+  background: url("../images/product_image_4.png") 100% / contain no-repeat;
 }
 
 .product:nth-child(1) .product__name,
 .product:nth-child(1) .explore__button {
-  color: var(--primary-color);
+  color: #af8653;
 }
 
 .product:nth-child(2) .product__name,
 .product:nth-child(2) .explore__button {
-  color: var(--primary-color);
+  color: #953146;
 }
 
 .product:nth-child(3) .product__name,
 .product:nth-child(3) .explore__button {
-  color: var(--primary-color);
+  color: #5c9561;
 }
 
 .product:nth-child(4) .product__name,
@@ -756,36 +804,13 @@ header {
 .view__button {
   border-radius: 0.25rem;
   background-color: var(--primary-color);
-  box-shadow: 0 0 2.5rem 0 black;
+  box-shadow: 0 0 2.5rem 0 rgba(10, 204, 131, 0.3);
   font-size: var(--font-size-medium);
   padding: var(--padding-small);
   color: var(--secondary-color);
   cursor: pointer;
 }
 
-/* Services */
-/* Testimonials */
-#services {
-  background-color: var(--secondary-color);
-  text-align: center;
-  color: black;
-}
-
-h2 {
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.service-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.caro {
-  padding: 7% 15%;
-}
 /* Stores */
 .container {
   display: flex;
@@ -858,7 +883,7 @@ h2 {
   width: 9.75rem !important;
   height: 3.43rem !important;
   flex-shrink: 0;
-  background-color: orange;
+  background-color: #0acf83;
   justify-content: center;
   align-items: center;
   border-radius: 0.25rem;
@@ -894,7 +919,7 @@ h2 {
 }
 
 #distance {
-  color: #FFA500;
+  color: #25b37a;
 }
 
 @media (min-width: 414px) {
@@ -1116,7 +1141,7 @@ h2 {
   height: 16.375rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/Services.png");
+  background-image: url("../images/deals_product_cards.png");
   background-size: cover;
 }
 
@@ -1218,7 +1243,7 @@ h2 {
   height: 24.0625rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/Logistics-removebg-preview.png");
+  background-image: url("../images/delivery.svg");
   background-size: cover;
 }
 
@@ -1408,7 +1433,7 @@ footer {
   height: 2.9rem;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("../images/navio_logo.png");
+  background-image: url("../images/footer_logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

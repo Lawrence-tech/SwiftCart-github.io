@@ -13,7 +13,7 @@
 }
 
 #hero__section h1 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: var(--font-size-very-big);
   max-width: 600px;
   text-align: start;
